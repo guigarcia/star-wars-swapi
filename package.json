@@ -1,0 +1,28 @@
+{
+  "name": "star-wars",
+  "version": "1.0.0",
+  "description": "All the Star Wars data you've ever wanted",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guigarcia/star-wars-swapi.git"
+  },
+  "keywords": [
+    "star",
+    "wars"
+  ],
+  "author": "Guilherme Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guigarcia/star-wars-swapi/issues"
+  },
+  "homepage": "https://github.com/guigarcia/star-wars-swapi#readme",
+  "dependencies": {
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
