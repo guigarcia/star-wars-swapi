@@ -1,7 +1,4 @@
 async function searchPeople(searchTerm) {
-
-console.log(process.env.API_URL)
-
     const resp = await fetch('/api/people', {
          method: 'POST',
          headers: {
