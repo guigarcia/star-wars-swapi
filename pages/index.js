@@ -7,7 +7,7 @@ const swapi = {
 function Home() {
 
    const [people, setPeople] = useState([])
-   const [loading, setLoading] = useState([false])
+   const [loading, setLoading] = useState(false)
 
 
    async function onSearch() {
