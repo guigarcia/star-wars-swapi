@@ -1,6 +1,7 @@
 const axios = require('axios')
 const swapiUrl = require('../../credentials/swapi.json').apiUrl
 const peopleUrl = swapiUrl+"people/?search="
+const unirest = require("unirest");
 
 async function getPeople(request, response) {
     const searchTerm = request.body.name

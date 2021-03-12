@@ -22,8 +22,12 @@
   "homepage": "https://github.com/guigarcia/star-wars-swapi#readme",
   "dependencies": {
     "axios": "^0.21.1",
+    "child_process": "^1.0.2",
+    "googleapis": "^39.2.0",
+    "http2": "^3.3.7",
     "next": "^10.0.8",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "unirest": "^0.6.0"
   }
 }
