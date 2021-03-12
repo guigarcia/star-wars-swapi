@@ -1,7 +1,7 @@
 import React, {useState } from 'react';
 
 const swapi = {
-    peoples: require('./services/handle-peoples.js')
+    peoples: require('../services/handle-peoples.js')
 }
 
 function Home() {
